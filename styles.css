@@ -1,0 +1,95 @@
+.body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown-item {
+    color: rgb(157, 32, 57);
+}
+
+.news-subscribe {
+    color: rgb(157, 32, 57);
+}
+
+.news-text {
+    color: rgb(157, 32, 57);
+    text-decoration: none;
+}
+
+.news-text:hover {
+    text-decoration: underline;
+    color: rgb(157, 32, 57);
+}
+
+.card {
+    position: absolute;
+    z-index: 1;
+}
+
+.showcase-img-container i {
+    opacity: 0
+}
+
+.showcase-img-container:hover img {
+    filter: brightness(50%);
+    transform: scale(1.07);
+    transition: 0.25s ease-in;
+}
+
+.showcase-img-container:hover i {
+    animation: fadeIn 0.5s ease-in;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.footer-icons i {
+    font-size: 1.5rem;
+}
+
+.footer-phone {
+    text-decoration: none;
+}
+
+.footer-phone:hover {
+    border-bottom: 1px solid #ffffff;
+}
+
+.list-group-item {
+    background-color: transparent;
+    border: none;
+}
+
+.list-group-item:hover a {
+    border-bottom: 1px solid #ffffff;
+    transition: 0.25s ease-in-out;
+}
+
+.event-title {
+    color: #fff;
+    cursor: pointer;
+}
+
+.event-title:hover {
+    color:rgb(157, 32, 57);
+    transition: 0.25s ease-in-out;
+}
+
+.footer-brand {
+    font-size: 1rem;
+    letter-spacing: 0.25rem;
+    text-decoration: none;
+}
+
+.footer-brand:hover {
+    text-decoration: underline;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
+}

@@ -1,2 +1,2 @@
 # StudentNewsPage
-Boostrap mock University-styled website
+Bootstrap made news page based off of Universities
